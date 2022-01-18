@@ -9,4 +9,13 @@ export const useCounterStore = defineStore('counter', {
       this.count++
     },
   },
+  persist: {
+    enabled: true,
+    strategies: [
+      {
+        storage: localStorage,
+        key: 'PINIA_COUNTER',
+      },
+    ],
+  },
 })
