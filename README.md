@@ -249,4 +249,4 @@ export const useCounterStore = defineStore('counter', {
   },
 })
 ```
-> 持久化部分的源码可以在我[plugin分支](https://github.com/nikolausliu/pinia-guide/tree/vuex-style)下找到源码。
+> 持久化部分的源码可以在我[plugin分支](https://github.com/nikolausliu/pinia-guide/tree/plugin)下找到源码。
